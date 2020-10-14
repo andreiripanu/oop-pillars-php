@@ -1,0 +1,26 @@
+{
+  "name": "arcsym/oop-pillars-php",
+  "description": "Examples about OOP in PHP (four pillars of OOP)",
+  "keywords": ["oop", "programming principles", "php", "learning", "examples"],
+  "authors": [
+    {
+      "name": "Andrei Ripanu",
+      "email": "andrei.ripanu@arcsym.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.11"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Arcsym\\": "src/"
+    }
+  }
+}
