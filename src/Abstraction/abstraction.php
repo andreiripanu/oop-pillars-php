@@ -3,7 +3,7 @@
 use Arcsym\OopPillarsPhp\Abstraction\AStudent;
 use Arcsym\OopPillarsPhp\Abstraction\Student;
 
-require dirname(__DIR__).'/../../vendor/autoload.php';
+require dirname(__DIR__, 2).'/vendor/autoload.php';
 
 /*
  * Abstraction with abstract class.

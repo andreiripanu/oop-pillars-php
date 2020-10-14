@@ -26,7 +26,7 @@ If you want to check the results on your machine, follow the steps:
 You can check the results in PHP Command Line Interface (PHP CLI). <br>
 Example (you are inside oop-pillars-php folder):
 ```
-php src/OopPillarsPhp/Encapsulation/encapsulation.php
+php src/Encapsulation/encapsulation.php
 ```
 
 ## How to learn

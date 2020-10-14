@@ -2,7 +2,7 @@
 
 use Arcsym\OopPillarsPhp\Encapsulation\Student;
 
-require dirname(__DIR__).'/../../vendor/autoload.php';
+require dirname(__DIR__, 2).'/vendor/autoload.php';
 
 /*
  * An object is created.
@@ -24,6 +24,7 @@ $student
  * Encapsulation is applying because properties are accessed with methods.
  */
 printf("Student's name: %s %s \n", $student->getLastname(), $student->getFirstname());
+echo dirname(__DIR__, 2); echo PHP_EOL; echo __FILE__;
 
 /*
  * A "PHP Fatal error" will be generating because visibility is set to private.

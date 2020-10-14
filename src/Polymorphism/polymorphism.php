@@ -11,7 +11,7 @@ use Arcsym\OopPillarsPhp\Polymorphism\Patient;
 use Arcsym\OopPillarsPhp\Polymorphism\Person;
 use Arcsym\OopPillarsPhp\Polymorphism\Student;
 
-require dirname(__DIR__).'/../../vendor/autoload.php';
+require dirname(__DIR__, 2).'/vendor/autoload.php';
 
 /*
  * Dynamic polymorphism (method overriding) with extended class.

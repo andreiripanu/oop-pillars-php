@@ -13,7 +13,7 @@
 
 use Arcsym\OopPillarsPhp\Inheritance\Student;
 
-require dirname(__DIR__).'/../../vendor/autoload.php';
+require dirname(__DIR__, 2).'/vendor/autoload.php';
 
 $student = new Student();
 
