@@ -1,7 +1,7 @@
 {
   "name": "arcsym/oop-pillars-php",
   "description": "Examples about OOP in PHP (four pillars of OOP)",
-  "keywords": ["oop", "programming principles", "php", "learning", "examples"],
+  "keywords": ["oop", "php", "learning", "examples"],
   "authors": [
     {
       "name": "Andrei Ripanu",
