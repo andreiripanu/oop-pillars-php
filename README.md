@@ -1,6 +1,7 @@
 ## About
 Examples about OOP in PHP (four pillars of OOP).
 
+<!--
 ## Requirements
 * PHP 7.4+
 * Composer
@@ -28,6 +29,7 @@ Example (you are inside oop-pillars-php folder):
 ```
 php src/Encapsulation/encapsulation.php
 ```
+-->
 
 ## How to learn
 
