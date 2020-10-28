@@ -12,7 +12,7 @@ $student = new Student();
 $student
   ->setLastname('Ripanu')
   ->setFirstname('Andrei')
-  ->setGender('Masculine')
+  ->setGender('masculine')
   ->setRegistrationNumber(123456789)
 ;
 $student->showInfo();
@@ -25,7 +25,7 @@ $student = new AStudent();
 $student
   ->setLastname('Ripanu')
   ->setFirstname('Andrei')
-  ->setGender('Masculine')
+  ->setGender('masculine')
   ->setRegistrationNumber(123456789)
 ;
 printf("%s %s %s has registration number %s \n",

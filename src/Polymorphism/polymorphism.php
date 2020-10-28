@@ -20,7 +20,7 @@ $person = new Person();
 $person
   ->setLastname('Ripanu')
   ->setFirstname('Andrei')
-  ->setGender('Masculine')
+  ->setGender('masculine')
 ;
 $person->showInfo();
 
@@ -28,7 +28,7 @@ $student = new Student();
 $student
   ->setLastname('Ripanu')
   ->setFirstname('Corneliu')
-  ->setGender('Masculine')
+  ->setGender('masculine')
   ->setRegistrationNumber(123456789)
 ;
 $student->showInfo();
