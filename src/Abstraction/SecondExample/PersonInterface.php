@@ -1,6 +1,6 @@
 <?php
 
-namespace Arcsym\OopPillarsPhp\Abstraction;
+namespace Arcsym\OopPillarsPhp\Abstraction\SecondExample;
 
 /**
  * A simple interface which help us with abstraction.

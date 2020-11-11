@@ -1,9 +1,9 @@
 <?php
 
-namespace Arcsym\OopPillarsPhp\Abstraction;
+namespace Arcsym\OopPillarsPhp\Polymorphism\FirstExample;
 
 /**
- * This is a derived class from abstract class.
+ * This is a derived class from base class.
  */
 class Student extends Person
 {
@@ -23,16 +23,17 @@ class Student extends Person
   }
 
   /*
-   * This class must implement the abstract method from abstract class.
-   * Abstraction is applying.
+   * This method have the same name like in base class but do something different.
+   * Dynamic polymorphism (method overriding) is applying.
    */
   public function showInfo(): void
   {
     printf("
+      Student
       Lastname: %s
       Firstname: %s
       Gender: %s
-      Registration Number: %s \n",
+      Registration Number: %s \n\n",
       $this->getLastname(),
       $this->getFirstname(),
       $this->getGender(),

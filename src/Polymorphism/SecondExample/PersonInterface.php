@@ -1,6 +1,6 @@
 <?php
 
-namespace Arcsym\OopPillarsPhp\Polymorphism;
+namespace Arcsym\OopPillarsPhp\Polymorphism\SecondExample;
 
 /**
  * A simple interface which help us with dynamic polymorphism.

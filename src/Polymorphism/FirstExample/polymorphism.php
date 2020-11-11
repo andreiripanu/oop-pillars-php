@@ -6,12 +6,10 @@
  * 2. Dynamic (run time) - method overriding.
  */
 
-use Arcsym\OopPillarsPhp\Polymorphism\Doctor;
-use Arcsym\OopPillarsPhp\Polymorphism\Patient;
-use Arcsym\OopPillarsPhp\Polymorphism\Person;
-use Arcsym\OopPillarsPhp\Polymorphism\Student;
+use Arcsym\OopPillarsPhp\Polymorphism\FirstExample\Person;
+use Arcsym\OopPillarsPhp\Polymorphism\FirstExample\Student;
 
-require dirname(__DIR__, 2).'/vendor/autoload.php';
+require dirname(__DIR__, 3).'/vendor/autoload.php';
 
 /*
  * Dynamic polymorphism (method overriding) with extended class.
@@ -32,26 +30,6 @@ $student
   ->setRegistrationNumber(123456789)
 ;
 $student->showInfo();
-
-
-/*
- * Dynamic polymorphism (method overriding) with interface.
- */
-$doctor = new Doctor();
-$doctor
-  ->setLastname('Ionescu')
-  ->setFirstname('Andrei')
-  ->setSpecialty('cardiology')
-;
-$doctor->showInfo();
-
-$patient = new Patient();
-$patient
-  ->setLastname('Popescu')
-  ->setFirstname('Alin')
-  ->setDiagnostic('endocarditis')
-;
-$patient->showInfo();
 
 
 /**

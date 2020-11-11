@@ -1,29 +1,29 @@
 <?php
 
-namespace Arcsym\OopPillarsPhp\Abstraction;
+namespace Arcsym\OopPillarsPhp\Abstraction\SecondExample;
 
-/**
- * This is a general class for a person.
- * So... we set it abstract.
+/*
+ * This class implement an interface.
  */
-abstract class Person
+class Student implements PersonInterface
 {
-  /*
-   * This properties have private visibility. Child can't access it.
-   * If child need to access this properties, we can set the visibility to protected.
-   */
   private string $lastname;
 
   private string $firstname;
 
   private string $gender;
 
+  private int $registrationNumber;
+
 
   /*
-   * This method will be implemented in each child which extends this abstract class.
-   * Implementation must be in child class. This is specific for abstraction.
+   * This class must implement the method from interface.
+   * Abstraction is applying.
    */
-  public abstract function showInfo();
+  public function prefixName(): string
+  {
+    return strtolower($this->gender) == 'masculine' ? 'Mr.' : 'Mrs.';
+  }
 
   public function setLastname(string $lastname): self
   {
@@ -59,5 +59,17 @@ abstract class Person
   public function getGender(): string
   {
     return $this->gender;
+  }
+
+  public function setRegistrationNumber(int $registrationNumber): self
+  {
+    $this->registrationNumber = $registrationNumber;
+
+    return $this;
+  }
+
+  public function getRegistrationNumber(): int
+  {
+    return $this->registrationNumber;
   }
 }

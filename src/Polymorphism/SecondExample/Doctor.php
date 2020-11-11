@@ -1,6 +1,6 @@
 <?php
 
-namespace Arcsym\OopPillarsPhp\Polymorphism;
+namespace Arcsym\OopPillarsPhp\Polymorphism\SecondExample;
 
 /**
  * This class implement an interface.

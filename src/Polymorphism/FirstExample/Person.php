@@ -1,6 +1,6 @@
 <?php
 
-namespace Arcsym\OopPillarsPhp\Polymorphism;
+namespace Arcsym\OopPillarsPhp\Polymorphism\FirstExample;
 
 /**
  * This is the base class
